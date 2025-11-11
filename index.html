@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Image Generator</h1>
+        <p class="subtitle">Using the Perchance.org API via a Proxy</p>
+        <div class="controls">
+            <textarea id="prompt-input" placeholder="Enter your image description... e.g., 'a majestic lion in a cyberpunk city'"></textarea>
+            <button id="generate-btn">
+                <span class="btn-text">Generate (4 Images)</span>
+                <div class="spinner" id="spinner"></div>
+            </button>
+        </div>
+        <div id="image-grid" class="image-grid"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
